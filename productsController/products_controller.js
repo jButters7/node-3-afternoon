@@ -30,7 +30,7 @@ module.exports = {
 
   update: (req, res, next) => {
     const dbInstance = req.app.get('db');
-    // const { id } = req.params
+    // //const { id } = req.params
     // const { name, description, price, image_url } = req.body
     const { params, query } = req;
 
